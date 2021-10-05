@@ -7,10 +7,9 @@ VALUES
   ('Ruston Kelly');
 
 
-
 --Problem 2
 --Select 10 artists in reverse alphabetical order.
-
+SELECT * FROM artist Order BY name DESC LIMIT 10
 
 
 
