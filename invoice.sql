@@ -36,8 +36,10 @@ WHERE billing_state IN ('CA', 'TX', 'AZ')
 --Get the average total of the orders.
 SELECT AVG(TOTAL) FROM invoice
 
+
 --Problem 8
 --Get the total sum of the orders.
+SELECT SUM(TOTAL) FROM invoice
 
 
 --Problem 9
