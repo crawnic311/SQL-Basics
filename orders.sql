@@ -31,7 +31,8 @@ SELECT * FROM orders
 
 --Problem 4
 --Calculate the total number of products ordered.
-
+SELECT SUM(quantity) FROM orders
+19
 
 
 --Problem 5
