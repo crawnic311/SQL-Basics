@@ -28,3 +28,4 @@ SELECT * FROM artist WHERE name LIKE 'Black%'
 
 --Problem 5
 --Select all artists that contain the word ‘Black’.
+SELECT * FROM artist WHERE name LIKE '%Black%'
