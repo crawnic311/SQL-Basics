@@ -20,7 +20,7 @@ SELECT * FROM employee
 WHERE reports_to = 2
 
 
-
-
 --Problem 5
 --Count how many people live in Lethbridge.
+SELECT COUNT(*) FROM employee
+WHERE city = 'Lethbridge'
