@@ -22,7 +22,7 @@ SELECT * FROM artist Order BY name LIMIT 5
 
 --Problem 4
 --Select all artists that start with the word ‘Black’.
-
+SELECT * FROM artist WHERE name LIKE 'Black%'
 
 
 
