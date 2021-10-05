@@ -57,8 +57,10 @@ SELECT * FROM person
 WHERE age < 20 OR age > 30;
 
 
+--Problem 9
 --Select all the people in the person table that are not 27 (use not equals).
-
+SELECT * FROM person
+WHERE age != 27;
 
 
 --Select all the people in the person table where their favorite color is not red.
