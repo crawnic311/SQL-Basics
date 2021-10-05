@@ -11,7 +11,7 @@ SELECT MAX(total) FROM invoice
 
 --Problem 3
 --Find the smallest order total amount.
-
+SELECT MIN(total) FROM invoice
 
 --Problem 4
 --Find all orders bigger than $5.
