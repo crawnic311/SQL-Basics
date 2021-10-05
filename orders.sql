@@ -25,7 +25,7 @@ VALUES
 
 --Problem 3
 --Select all the records from the orders table.
-
+SELECT * FROM orders
 
 
 
