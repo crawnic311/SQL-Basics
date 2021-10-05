@@ -22,7 +22,8 @@ WHERE total > 5
 
 --Problem 5
 --Count how many orders were smaller than $5.
-
+SELECT COUNT(*) FROM invoice
+WHERE total < 5
 
 
 --Problem 6
