@@ -9,6 +9,7 @@ CREATE TABLE person(
   favorite_color VARCHAR(255)
 );
 
+
 --Problem 2
 --Add 5 different people into the person database. Remember to not include the person_id because it should auto-increment.
 INSERT INTO person (name, age, height, city, favorite_color)
@@ -19,15 +20,18 @@ VALUES
 	('Adam', 38, 183, 'Nashille', 'Red'),
 	('Steve', 65, 178, 'Driggs', 'Blue');
 
+
 --Problem 3
 --Select all the people in the person table by height from tallest to shortest.
 SELECT * FROM person
 ORDER BY height DESC;
 
+
 --Probelm 4
 --Select all the people in the person table by height from shortest to tallest.
 SELECT * FROM person
 ORDER BY height;
+
 
 --Problem 5
 --Select all the people in the person table by age from oldest to youngest.
@@ -35,8 +39,10 @@ SELECT * FROM person
 ORDER BY age DESC;
 
 
+--Problem 6
 --Select all the people in the person table older than age 20.
-
+SELECT * FROM person
+WHERE age > 20;
 
 
 --Select all the people in the person table that are exactly 18.
