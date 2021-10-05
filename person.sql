@@ -45,8 +45,10 @@ SELECT * FROM person
 WHERE age > 20;
 
 
+--Problem 7
 --Select all the people in the person table that are exactly 18.
-
+SELECT * FROM person
+WHERE age = 20;
 
 
 --Select all the people in the person table that are less than 20 and older than 30.
