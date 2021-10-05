@@ -37,7 +37,7 @@ SELECT SUM(quantity) FROM orders
 
 --Problem 5
 --Calculate the total order price.
-
+SELECT SUM(product_price * quantity) FROM orders
 
 
 --Problem 6
