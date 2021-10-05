@@ -75,8 +75,10 @@ SELECT * FROM person
 WHERE favorite_color != 'Blue' AND favorite_color != 'Red';
 
 
+--Problem 12
 --Select all the people in the person table where their favorite color is orange or green.
-
+SELECT * FROM person
+WHERE favorite_color = 'Orange' OR favorite_color = 'Green';
 
 
 --Select all the people in the person table where their favorite color is orange, green or blue (use IN).
