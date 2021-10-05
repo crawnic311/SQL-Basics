@@ -28,6 +28,8 @@ WHERE total < 5
 
 --Problem 6
 --Count how many orders were in CA, TX, or AZ (use IN).
+SELECT COUNT(*) FROM invoice
+WHERE billing_state IN ('CA', 'TX', 'AZ')
 
 
 --Problem 7
