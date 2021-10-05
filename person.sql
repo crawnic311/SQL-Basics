@@ -9,10 +9,15 @@ CREATE TABLE person(
   favorite_color VARCHAR(255)
 );
 
-
 --Problem 2
 --Add 5 different people into the person database. Remember to not include the person_id because it should auto-increment.
-
+INSERT INTO person (name, age, height, city, favorite_color)
+VALUES 
+	('Dillon', 30, 186, 'Orem', 'Blue'),
+	('Cameron', 32, 180, 'Portland', 'Green'),
+	('David', 35, 178, 'Milford', 'Blue'),
+	('Adam', 38, 183, 'Nashille', 'Red'),
+	('Steve', 65, 178, 'Driggs', 'Blue');
 
 
 --Select all the people in the person table by height from tallest to shortest.
