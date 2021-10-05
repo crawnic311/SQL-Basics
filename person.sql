@@ -63,8 +63,10 @@ SELECT * FROM person
 WHERE age != 27;
 
 
+--Problem 10
 --Select all the people in the person table where their favorite color is not red.
-
+SELECT * FROM person
+WHERE favorite_color != 'Red';
 
 
 --Select all the people in the person table where their favorite color is not red and is not blue.
