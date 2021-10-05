@@ -42,3 +42,4 @@ SELECT SUM(product_price * quantity) FROM orders
 
 --Problem 6
 --Calculate the total order price by a single person_id.
+SELECT SUM(product_price * quantity) FROM orders WHERE person_id = 434
