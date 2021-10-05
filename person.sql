@@ -24,9 +24,10 @@ VALUES
 SELECT * FROM person
 ORDER BY height DESC;
 
-
+--Probelm 4
 --Select all the people in the person table by height from shortest to tallest.
-
+SELECT * FROM person
+ORDER BY height;
 
 
 --Select all the people in the person table by age from oldest to youngest.
