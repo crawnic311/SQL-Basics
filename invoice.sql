@@ -4,9 +4,9 @@ SELECT COUNT(*) FROM invoice
 WHERE billing_country = 'USA'
 
 
-
 --Problem 2
 --Find the largest order total amount.
+SELECT MAX(total) FROM invoice
 
 
 --Problem 3
