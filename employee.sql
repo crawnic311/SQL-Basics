@@ -4,12 +4,9 @@ SELECT first_name, last_name FROM employee
 WHERE city = 'Calgary'
 
 
-
 --Problem 2
 --Find the birthdate for the youngest employee.
 SELECT MIN(birth_date) FROM employee 
-
-
 
 
 --Problem 3
@@ -17,11 +14,10 @@ SELECT MIN(birth_date) FROM employee
 SELECT MAX(birth_date) FROM employee 
 
 
-
-
 --Problem 4
 --Find everyone that reports to Nancy Edwards (use the ReportsTo column). * You will need to query the employee table to find the id for Nancy Edwards
-
+SELECT * FROM employee
+WHERE reports_to = 2
 
 
 
