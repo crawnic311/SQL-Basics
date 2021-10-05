@@ -51,4 +51,4 @@ WHERE invoice_id = 5
 
 --Problem 10
 --Delete the invoice with an invoice_id of 1.
-
+DELETE FROM invoice WHERE invoice_id = 1
