@@ -19,9 +19,10 @@ VALUES
 	('Adam', 38, 183, 'Nashille', 'Red'),
 	('Steve', 65, 178, 'Driggs', 'Blue');
 
-
+--Problem 3
 --Select all the people in the person table by height from tallest to shortest.
-
+SELECT * FROM person
+ORDER BY height DESC;
 
 
 --Select all the people in the person table by height from shortest to tallest.
