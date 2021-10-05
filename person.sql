@@ -51,8 +51,10 @@ SELECT * FROM person
 WHERE age = 20;
 
 
+--PRoblem 8
 --Select all the people in the person table that are less than 20 and older than 30.
-
+SELECT * FROM person
+WHERE age < 20 OR age > 30;
 
 
 --Select all the people in the person table that are not 27 (use not equals).
