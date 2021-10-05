@@ -7,7 +7,7 @@ WHERE city = 'Calgary'
 
 --Problem 2
 --Find the birthdate for the youngest employee.
-
+SELECT MIN(birth_date) FROM employee 
 
 
 
